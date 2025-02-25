@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+<div class="w3-container">
+
+<h2>Accordions</h2>
+<p>An accordion is used to show (and hide) HTML content:</p>
+  
+<button onclick="myFunction('Demo1')" class="w3-btn w3-block w3-black w3-left-align">Open Section 1</button>
+<div id="Demo1" class="w3-container w3-hide">
+  <h4>Section 1</h4>
+  <p>Some text..</p>
+</div>
+
+</div>
+<script>
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+<button onclick="myFunc('Demo1')" class="w3-button">
+    Normal button</button>
+    
+    <div id="Demo1" class="w3-hide">
+      <p>Lorem ipsum...</p>
+    </div>
+    
+    <button onclick="myFunc('Demo2')" class="w3-button w3-block w3-left-align w3-green">
+    Left aligned and full-width</button>
+    
+    <div id="Demo2" class="w3-hide">
+      <p>Lorem ipsum...</p>
+    </div>
+    
+    <button onclick="myFunc('Demo3')" class="w3-btn w3-block w3-red">
+    Centered and full-width</button>
+    
+    <div id="Demo3" class="w3-hide w3-center">
+      <p>Centered content as well!</p>
+    </div>
+    
+<h1>nguyen minh Phuong_2121051285</h1>    
+</body>
+</html>
