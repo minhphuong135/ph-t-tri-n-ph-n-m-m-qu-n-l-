@@ -300,3 +300,4 @@ C:\Users\ASUS\OneDrive\Máy tính\HAHA\DemoMVC\obj\Debug\net8.0\refint\DemoMVC.d
 C:\Users\ASUS\OneDrive\Máy tính\HAHA\DemoMVC\obj\Debug\net8.0\DemoMVC.pdb
 C:\Users\ASUS\OneDrive\Máy tính\HAHA\DemoMVC\obj\Debug\net8.0\DemoMVC.genruntimeconfig.cache
 C:\Users\ASUS\OneDrive\Máy tính\HAHA\DemoMVC\obj\Debug\net8.0\ref\DemoMVC.dll
+C:\Users\ASUS\OneDrive\Máy tính\HAHA\DemoMVC\obj\Debug\net8.0\DemoMVC.sourcelink.json
