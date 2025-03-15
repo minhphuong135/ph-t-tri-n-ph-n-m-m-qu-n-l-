@@ -5,7 +5,7 @@
 namespace DemoMVC.Migrations
 {
     /// <inheritdoc />
-    public partial class Create_table_Person : Migration
+    public partial class Create_Table_Person : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -16,7 +16,8 @@ namespace DemoMVC.Migrations
                 {
                     PersonId = table.Column<string>(type: "TEXT", nullable: false),
                     FullName = table.Column<string>(type: "TEXT", nullable: false),
-                    Address = table.Column<string>(type: "TEXT", nullable: false)
+                    Address = table.Column<string>(type: "TEXT", nullable: false),
+                    hobbies = table.Column<string>(type: "TEXT", nullable: false)
                 },
                 constraints: table =>
                 {
