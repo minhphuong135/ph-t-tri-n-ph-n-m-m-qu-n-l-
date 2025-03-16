@@ -1,0 +1,22 @@
+@model DemoMVC.Models.Employee
+
+<h2>Chỉnh sửa nhân viên</h2>
+<form asp-action="Edit" method="post">
+    <label>Person ID:</label>
+    <input type="text" asp-for="PersonId" required /><br>
+
+    <label>Full Name:</label>
+    <input type="text" asp-for="FullName" required /><br>
+
+    <label>Address:</label>
+    <input type="text" asp-for="Address" required /><br>
+
+    <label>Employee ID (không thể thay đổi):</label>
+    <input type="text" asp-for="EmployeeID" readonly /><br>
+
+    <label>Age:</label>
+    <input type="number" asp-for="Age" required /><br>
+
+    <button type="submit">Lưu thay đổi</button>
+</form>
+<a href="/Employee/Index">Quay lại danh sách</a>

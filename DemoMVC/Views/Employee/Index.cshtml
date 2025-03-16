@@ -1,0 +1,23 @@
+@model List< DemoMVC.Models.Employee>
+
+<h2>Danh sách nhân viên</h2>
+<table border="1">
+    <tr>
+        <th>Person ID</th>
+        <th>Full Name</th>
+        <th>Address</th>
+        <th>Employee ID</th>
+        <th>Age</th>
+    </tr>
+    @foreach (var emp in Model)
+    {
+        <tr>
+            <td>@emp.PersonId</td>
+            <td>@emp.FullName</td>
+            <td>@emp.Address</td>
+            <td>@emp.EmployeeID</td>
+            <td>@emp.Age</td>
+        </tr>
+    }
+</table>
+<a href="/Employee/Create">Thêm nhân viên</a>
