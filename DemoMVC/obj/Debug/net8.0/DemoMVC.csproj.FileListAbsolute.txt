@@ -591,7 +591,6 @@ D:\PTPMQL\HAHA\DemoMVC\obj\Debug\net8.0\DemoMVC.csproj.CoreCompileInputs.cache
 D:\PTPMQL\HAHA\DemoMVC\obj\Debug\net8.0\DemoMVC.MvcApplicationPartsAssemblyInfo.cache
 D:\PTPMQL\HAHA\DemoMVC\obj\Debug\net8.0\DemoMVC.RazorAssemblyInfo.cache
 D:\PTPMQL\HAHA\DemoMVC\obj\Debug\net8.0\DemoMVC.RazorAssemblyInfo.cs
-D:\PTPMQL\HAHA\DemoMVC\obj\Debug\net8.0\DemoMVC.sourcelink.json
 D:\PTPMQL\HAHA\DemoMVC\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 D:\PTPMQL\HAHA\DemoMVC\obj\Debug\net8.0\scopedcss\bundle\DemoMVC.styles.css
 D:\PTPMQL\HAHA\DemoMVC\obj\Debug\net8.0\scopedcss\projectbundle\DemoMVC.bundle.scp.css
