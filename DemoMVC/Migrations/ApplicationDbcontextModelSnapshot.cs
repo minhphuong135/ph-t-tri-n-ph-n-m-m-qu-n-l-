@@ -14,7 +14,7 @@ namespace DemoMVC.Migrations
         protected override void BuildModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
-            modelBuilder.HasAnnotation("ProductVersion", "9.0.2");
+            modelBuilder.HasAnnotation("ProductVersion", "9.0.3");
 
             modelBuilder.Entity("DemoMVC.Models.Person", b =>
                 {
@@ -39,7 +39,7 @@ namespace DemoMVC.Migrations
 
                     b.HasKey("PersonId");
 
-                    b.ToTable("Person");
+                    b.ToTable("Person", (string)null);
                 });
 #pragma warning restore 612, 618
         }
